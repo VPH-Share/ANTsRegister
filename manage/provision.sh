@@ -28,6 +28,10 @@ sudo update-rc.d antsregister defaults
 log "Starting application"
 sudo service antsregister start
 #######################################
+log "Deconfigure Github Deployinator to autostart"
+sudo update-rc.d githubdeploy disable
+sudo rm /etc/init.d/githubdeploy
+#######################################
 log "Cleaning up..."
 pkgclean
 pkgautoremove
