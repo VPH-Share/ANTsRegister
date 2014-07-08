@@ -46,7 +46,7 @@ class ANTsRegister(DefinitionBase):
         moving_img_filename = os.path.basename(os.path.splitext(moving_image)[0])
         registered_image = os.path.join(output_path,
                             fixed_img_filename+'_'+moving_img_filename)
-        command = CMD_STR.format(Fixed_Image=fixed_image, Moving_Image=fixed_image, Registered_Image=registered_image)
+        command = CMD_STR.format(Fixed_Image=fixed_image, Moving_Image=moving_image, Registered_Image=registered_image)
         try:
             out = emissary.envoy.run(command)
             r = create_response(out)
