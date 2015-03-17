@@ -1,5 +1,7 @@
 ## ANTsRegister
 
+[![Join the chat at https://gitter.im/VPH-Share/ANTsRegister](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/VPH-Share/ANTsRegister?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ANTsRegister SOAP Service Installer
 
 ### via `curl`
